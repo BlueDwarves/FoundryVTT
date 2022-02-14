@@ -1,0 +1,18 @@
+This code implements Nathair's Mischief for DnD5e
+
+Usage: On the first cast, select Use Spell Slot, then on subsequent rounds, cast again without using a spell slot. 
+
+The spell uses the Mischievous surge table to randomly select one of the four effects. The spell sets the color of the measured template, and 
+in subsequent rounds, it looks for the template with this color and deletes the previous one. 
+
+Requirements:
+- dnd5e, DAE, Midi-QOL, Enhanced Terrain Layer
+- Nathair's Mischievous Surge table must be loaded into rolltables (I can't remember where I got this from, but credit to whomever put this up for everyone).
+- The image, 'molasses.jpg' must be installed in the Data folder (C:\Users\<user>\AppData\Local\FoundryVTT\Data)
+
+Notes:
+- Usually, the existing template is deleted as soon as concentration is broken so the delete section is only a precaution. 
+- I'd like to check for the image instead of assume it's there, but I couldn't get that to work.
+- As of 2022.02.14, DnD5e Drag Rule Integration module does not recognize the difficult terrain cost. 
+
+
