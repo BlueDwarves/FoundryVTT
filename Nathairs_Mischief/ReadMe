@@ -3,7 +3,8 @@ This code implements Nathair's Mischief for DnD5e
 Usage: On the first cast, select Use Spell Slot, then on subsequent rounds, cast again without using a spell slot. 
 
 The spell uses the Mischievous surge table to randomly select one of the four effects. The spell sets the color of the measured template, and 
-in subsequent rounds, it looks for the template with this color and deletes the previous one. 
+in subsequent rounds, it looks for the template with this color and deletes the previous one. It then either automatically rolls the appropriate 
+saving throws for the targets or creates difficult terrain.
 
 Requirements:
 - dnd5e, DAE, Midi-QOL, Enhanced Terrain Layer
