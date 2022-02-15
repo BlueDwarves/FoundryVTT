@@ -1,4 +1,4 @@
-This code implements Nathair's Mischief for DnD5e
+This code implements Nathair's Mischief for DnD5e: http://dnd5e.wikidot.com/spell:nathairs-mischief 
 
 Usage: On the first cast, select Use Spell Slot, then on subsequent rounds, cast again without using a spell slot. 
 
